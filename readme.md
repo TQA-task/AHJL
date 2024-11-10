@@ -2,7 +2,7 @@
 
 This project is part of the **Qur’an QA 2023 Shared Task**, specifically focused on **Task A: Passage Retrieval (PR)**. The goal of the project is to enhance passage retrieval for questions posed about the Holy Qur’an, using a combination of Sentence Transformer models and translation techniques. This approach improves the model's ability to understand Arabic queries, providing more accurate and contextually relevant passages from the Qur’an as answers.
 
-## Project Description
+### Project Description
 
 The Holy Qur’an, with its linguistic richness and spiritual significance, serves as a central text for nearly two billion Muslims worldwide. The task we addressed in the Qur’an QA 2023 Shared Task involves retrieving relevant passages in response to questions asked in Modern Standard Arabic. Our approach leverages advanced natural language processing (NLP) and information retrieval (IR) techniques to optimize the accuracy and relevance of these retrieved passages.
 
@@ -18,13 +18,13 @@ The Holy Qur’an, with its linguistic richness and spiritual significance, serv
 - **Semantic and Dense Retrieval**: Our model uses dense retrieval techniques, allowing it to capture deeper contextual relationships beyond simple keyword matching.
 - **No-Answer Detection**: For questions without an answer in the Qur’an, our model effectively filters irrelevant passages by applying a similarity threshold.
 
-## Methodology
+### Methodology
 
 - **Dataset**: The project uses a Qur’anic passage collection (QPC) and questions from the AyaTEC dataset. The dataset includes relevance assessments to gauge how well passages respond to various questions.
 - **Model Architecture**: Our cross-lingual architecture uses a Sentence Transformer model combined with OpenAI embeddings for document retrieval, as well as a cross-encoder re-ranker for additional filtering.
 - **Evaluation Metrics**: Mean Average Precision (MAP) and Mean Reciprocal Rank (MRR) were used to evaluate retrieval accuracy. All experiments were conducted in a zero-shot setup without further fine-tuning.
 
-## Results
+### Results
 
 - **Performance**: Our model incorporating translation outperformed the non-translation model across all metrics, achieving higher MAP and MRR scores.
 - **Top Results**: The highest-performing model achieved an MRR of 0.389 and MAP of 0.343 on the development set.
@@ -34,10 +34,10 @@ The Holy Qur’an, with its linguistic richness and spiritual significance, serv
 Our approach successfully integrates translation to improve passage retrieval accuracy in Arabic question-answering systems. By participating in the Qur’an QA 2023 Shared Task, we demonstrate how translation and paraphrasing can enhance understanding and retrieval quality for complex religious texts.
 
 ### Authors
-Hessa A. Alawwad - Imam Mohammad Ibn Saud Islamic University
-Lujain A. Alawwad - Saudi Electronic University
-Jamilah Alharbi - King Abdulaziz University
-Abdullah I. Alharbi - King Abdulaziz University
+- **Hessa A. Alawwad** - Imam Mohammad Ibn Saud Islamic University
+- **Lujain A. Alawwad** - Saudi Electronic University
+- **Jamilah Alharbi** - King Abdulaziz University
+- **Abdullah I. Alharbi** - King Abdulaziz University
 
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
