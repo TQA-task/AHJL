@@ -39,6 +39,9 @@ Lujain A. Alawwad - Saudi Electronic University
 Jamilah Alharbi - King Abdulaziz University
 Abdullah I. Alharbi - King Abdulaziz University
 
+### License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
 ### Citation
 If you use this code in your research, please cite our work presented at the First Arabic Natural Language Processing Conference (ArabicNLP 2023).
 
@@ -46,6 +49,4 @@ If you use this code in your research, please cite our work presented at the Fir
 Alawwad, H., Alawwad, L., Alharbi, J., & Alharbi, A. (2023, December). AHJL at Qur’an QA 2023 Shared Task: Enhancing Passage Retrieval using Sentence Transformer and Translation. In Proceedings of ArabicNLP 2023 (pp. 702-707).‏
 
 
-### License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
