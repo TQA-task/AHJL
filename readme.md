@@ -29,14 +29,6 @@ The Holy Qur’an, with its linguistic richness and spiritual significance, serv
 - **Performance**: Our model incorporating translation outperformed the non-translation model across all metrics, achieving higher MAP and MRR scores.
 - **Top Results**: The highest-performing model achieved an MRR of 0.389 and MAP of 0.343 on the development set.
 
-## Setup and Installation
-
-### Requirements
-
-Install the necessary Python packages:
-
-```bash
-pip install streamlit ibm-watsonx-ai sentence-transformers openai
 
 ### Conclusion
 Our approach successfully integrates translation to improve passage retrieval accuracy in Arabic question-answering systems. By participating in the Qur’an QA 2023 Shared Task, we demonstrate how translation and paraphrasing can enhance understanding and retrieval quality for complex religious texts.
@@ -56,3 +48,4 @@ Alawwad, H., Alawwad, L., Alharbi, J., & Alharbi, A. (2023, December). AHJL at Q
 
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
